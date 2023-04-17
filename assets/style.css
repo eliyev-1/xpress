@@ -1,0 +1,84 @@
+
+*,
+*::after,
+*::before{
+margin: 0;
+padding: 0;
+outline: 0;
+border: none;
+box-sizing:border-box;
+}
+html{
+box-sizing:border-box;
+font-size: 62.5%;
+font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+body{
+
+background-color: var(--color-light-sky);
+font-size: 1.6rem;
+}
+img{
+width: 100%;
+height: 100%;
+display: block;
+
+
+}
+
+ul{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+}
+
+:root{
+--color-white:white;
+
+--color-black: black;
+--color-sky: #CEECF3;
+--color-black-light: #040522;
+--color-blue:#171FE5;
+--color-blue-light:#F8FCFD;
+--color-purple: #FD4848;
+--color-orange: #FF843F;
+--color-orange-dark: #E56117;
+--color-orange-light: #FFA166;
+--alpha:0.8
+
+
+}
+:root{
+--main-font1:  'Lexend', sans-serif;
+--main-font2:  'Poppins', sans-serif;
+--main-font3:  'Roboto', sans-serif;
+--main-font4:  'DM Sans', sans-serif;
+
+}
+h1,p,h3{
+font-family: var(--main-font1);
+font-style: normal;
+color:var(--color-black) ;
+
+}
+h1,h3{
+line-height: 120%;
+}
+h1{
+font-weight: 600;
+}
+h5,h6{
+   font-family: var(--main-font3); 
+   font-weight: 500;
+   color: var(--color-white);
+   font-style: normal;
+}
+p{
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 160%;
+}
+.container{
+width: 80%;
+
+}
